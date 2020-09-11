@@ -1,0 +1,39 @@
+.landing {
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .text-landing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 60vh;
+        margin: 0 auto;
+
+        h3 {
+            font-size: 2em;
+            margin-left: 5px;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 10px 0 5px 0;
+        }
+
+        p {
+            font-size: 1em;
+            text-transform: capitalize;
+            // letter-spacing: 2px;
+            font-weight: 400;
+            margin-left: 5px;
+        }
+    }
+
+    .btn-landing {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+}

@@ -1,0 +1,48 @@
+// import external scss
+@import './nav';
+@import './landing';
+@import './btn';
+@import './work';
+@import './thumbnails';
+@import './footer';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+span {
+    color: #7a7a7a;
+}
+
+section {
+    min-height: 90vh;
+    width: 100%;
+}
+
+ul {
+
+    li {
+        list-style: none;
+
+
+        a {
+            text-decoration: none;
+            color: black;
+            opacity: .7;
+            font-weight: 400;
+
+            &:hover {
+                opacity: 1;
+                text-decoration: underline;
+            }
+        }
+    }
+}

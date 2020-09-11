@@ -1,0 +1,33 @@
+footer {
+    margin-top: 10vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+
+    p {
+        font-size: .8em;
+        text-transform: capitalize;
+    }
+
+    .container {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .text-footer {
+            p {
+                letter-spacing: 1px;
+                margin: 10px auto;
+            }
+        }
+
+        .logo {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+        }
+    }
+}

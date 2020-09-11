@@ -1,0 +1,15 @@
+.gallery {
+    margin: 0 0 15vh 0;
+
+    .thumbnails {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}

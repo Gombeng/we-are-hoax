@@ -1,0 +1,29 @@
+.work {
+    margin: 80px auto 0 auto;
+    width: 80%;
+
+    .text-work {
+        letter-spacing: 3px;
+        word-spacing: 5px;
+    }
+
+    .btn-wrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .promotion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+
+        p {
+            margin: 20px 0;
+        }
+    }
+}
